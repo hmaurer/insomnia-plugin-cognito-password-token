@@ -131,7 +131,7 @@ const run = async ({ store }, Username, Password, UserPoolId, ClientId) => {
 module.exports.templateTags = [
   {
     name: "InsomniaCognitoPasswordToken",
-    displayName: "Insomnia cognito password token",
+    displayName: "Cognito password token",
     description:
       "Get an access token from AWS Cognito using password-based authentication.",
     args: [
